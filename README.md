@@ -96,6 +96,7 @@ In this project, we've used a sample database named "autos" as an illustrative e
 - **`id_autos:`** An auto's unique identifier.
 - **`id_parking:`** An identifier representing the parking location.
 - **`matricule:`** The vehicle's registration number.
+  
  Please note that you can customize the database schema to suit your specific requirements. The provided example serves as a starting point for understanding the CRUD operations implemented in this Flask API. To adapt this project to your needs, you can modify the database name and schema in the `db.py` file .
   
 ## Contributions
