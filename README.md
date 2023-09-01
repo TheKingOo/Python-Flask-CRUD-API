@@ -15,15 +15,19 @@ Before you begin, ensure you have the following prerequisites installed:
 ## Setting up the Development Environment
 
 1. Clone this repository to your local machine
-2. Activate your existing virtual environment named "myEnv" (replace with the actual name if different):
+2. Create a virtual environment:
+ ```
+python -m venv venv
+```  
+3. Activate your virtual environment :
    
 - On Windows:
 ``
-myEnv\Scripts\activate
+venv\Scripts\activate
 ``
 - On macOS and Linux:
 ``
-source myEnv/bin/activate
+source venv/bin/activate
 ``
 3. Install required libraries:
 ```
