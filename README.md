@@ -17,18 +17,18 @@ Before you begin, ensure you have the following prerequisites installed:
 1. Clone this repository to your local machine
 2. Create a virtual environment:
  ```
-python -m venv venv
+python3 -m venv venv
 ```  
 3. Activate your virtual environment :
    
 - On Windows:
-``
+```
 venv\Scripts\activate
-``
+```
 - On macOS and Linux:
-``
+```
 source venv/bin/activate
-``
+```
 3. Install required libraries:
 ```
 pip install Flask pymysql
