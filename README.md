@@ -91,12 +91,12 @@ The API will be accessible at `http://localhost:5000`.
 - **PUT /items/{id}:** Update an item by its ID.
 - **DELETE /items/{id}:** Delete an item by its ID.
   
-# Example Data: "Autos"
+## Example Data: "Autos"
 In this project, we've used a sample database named "autos" as an illustrative example. This dataset includes the following fields:
 - **`id_autos:`** An auto's unique identifier.
 - **`id_parking:`** An identifier representing the parking location.
 - **`matricule:`** The vehicle's registration number.
  Please note that you can customize the database schema to suit your specific requirements. The provided example serves as a starting point for understanding the CRUD operations implemented in this Flask API. To adapt this project to your needs, you can modify the database name and schema in the `db.py` file .
   
-# Contributions
+## Contributions
 Contributions are welcome! If you'd like to enhance or extend this Flask CRUD API, feel free to submit pull requests or report issues. This project is open to collaboration and improvement.
